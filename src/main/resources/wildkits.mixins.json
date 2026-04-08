@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.wildkits.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HandledScreenMixin",
+    "InGameHudMixin",
+    "GameRendererMixin",
+    "WorldRendererMixin",
+    "ChatScreenMixin",
+    "ClientTickMixin",
+    "KeyInputMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
